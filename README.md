@@ -1,14 +1,14 @@
-# 🧠 AI-Powered-Business-Insights-Copilot
+# 🧠 AI-Powered Business Insights Copilot
 
-An intelligent business analytics assistant that combines **data-driven analytics**, **validation guardrails**, and **LLM-powered explanations** to transform raw business datasets into actionable insights.
+An intelligent business analytics assistant that combines React.js, Python analytics, validation guardrails, and LLM-powered explanations to transform raw business datasets into actionable insights.
 
-Built using **Python, Streamlit, Pandas, Plotly, and Groq LLM**, this project enables users to interact with business data through natural language queries and receive reliable, explainable insights.
+Built using React.js, Python, Pandas, Plotly, FastAPI, and Groq LLM, this project enables users to interact with business data through natural language queries and receive reliable, explainable business insights.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-### 📊 Business Analytics
+## 📊 Business Analytics
 
 * Sales Trend Analysis
 * Marketing Impact Analysis
@@ -18,27 +18,35 @@ Built using **Python, Streamlit, Pandas, Plotly, and Groq LLM**, this project en
 * Campaign Performance Analysis
 * General Business Overview
 
-### 🤖 AI-Powered Insights
+## ⚛️ React-Based Frontend
+
+* Responsive React.js dashboard
+* Interactive business analytics interface
+* Real-time API communication
+* Dynamic chart rendering
+* User-friendly analytics experience
+
+## 🤖 AI-Powered Insights
 
 * Natural language business queries
 * Human-readable explanations generated using Groq LLM
 * Structured and explainable insight generation
 
-### 🛡️ Validation Guardrails
+## 🛡️ Validation Guardrails
 
 * Correlation strength validation
 * Confidence scoring
 * Weak-data detection
 * Prevention of misleading conclusions
 
-### 📈 Interactive Visualizations
+## 📈 Interactive Visualizations
 
 * Dynamic Bar Charts
 * Scatter Plots with Trendlines
 * KPI Dashboard
 * Comparative Analysis Charts
 
-### 💬 Conversational Interface
+## 💬 Conversational Interface
 
 * Chat-style interaction
 * Quick question suggestions
@@ -46,51 +54,81 @@ Built using **Python, Streamlit, Pandas, Plotly, and Groq LLM**, this project en
 
 ---
 
-## 🏗️ Architecture
+# 🏗️ Architecture
 
-```text
 User Query
-     │
-     ▼
+
+↓
+
+React.js Frontend
+
+↓
+
+FastAPI Backend
+
+↓
+
 Intent Detection
-     │
-     ▼
+
+↓
+
 Data Processing (Pandas)
-     │
-     ▼
+
+↓
+
 Validation & Guardrails
-     │
-     ▼
+
+↓
+
 Confidence Scoring
-     │
-     ▼
+
+↓
+
 Template-Based Insight
-     │
-     ▼
+
+↓
+
 Groq LLM Explanation
-     │
-     ▼
+
+↓
+
 Interactive Dashboard
-```
 
-### Controlled Hybrid Architecture
+---
 
-```text
-Pandas  → Truth Layer
-Python  → Decision Logic & Guardrails
-Groq    → Human-Friendly Explanation Layer
-```
+## Controlled Hybrid Architecture
+
+### React.js
+
+Frontend Presentation Layer
+
+### FastAPI
+
+API Communication Layer
+
+### Pandas
+
+Truth Layer
+
+### Python
+
+Decision Logic & Guardrails
+
+### Groq LLM
+
+Human-Friendly Explanation Layer
 
 This architecture ensures that all conclusions remain grounded in actual computed data while leveraging AI only for explanation.
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 | Technology  | Purpose                    |
 | ----------- | -------------------------- |
-| Python      | Backend Logic              |
-| Streamlit   | Web Application            |
+| React.js    | Frontend Application       |
+| FastAPI     | Backend APIs               |
+| Python      | Business Logic             |
 | Pandas      | Data Analysis              |
 | Plotly      | Interactive Visualizations |
 | Groq LLM    | AI Explanations            |
@@ -98,18 +136,26 @@ This architecture ensures that all conclusions remain grounded in actual compute
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 AI-Powered-Business-Insights-Copilot/
 │
-├── app.py
-├── config.py
-├── data_layer.py
-├── intent_engine.py
-├── analysis_engine.py
-├── llm_layer.py
-├── visualizations.py
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── services/
+│
+├── backend/
+│   ├── app.py
+│   ├── config.py
+│   ├── data_layer.py
+│   ├── intent_engine.py
+│   ├── analysis_engine.py
+│   ├── llm_layer.py
+│   └── visualizations.py
+│
 ├── requirements.txt
 ├── improved_business_dataset.csv
 └── README.md
@@ -117,60 +163,46 @@ AI-Powered-Business-Insights-Copilot/
 
 ---
 
-## 📌 Supported Queries
+# 📌 Supported Queries
 
-### Sales Analysis
+## Sales Analysis
 
-```text
-Which category has the highest sales?
-Show sales trends.
-Why did sales drop?
-```
+* Which category has the highest sales?
+* Show sales trends.
+* Why did sales drop?
 
-### Marketing Analysis
+## Marketing Analysis
 
-```text
-Does marketing spend impact sales?
-What is the correlation between marketing and sales?
-```
+* Does marketing spend impact sales?
+* What is the correlation between marketing and sales?
 
-### ROI Analysis
+## ROI Analysis
 
-```text
-Which category has the highest ROI?
-Compare ROI across categories.
-```
+* Which category has the highest ROI?
+* Compare ROI across categories.
 
-### Region Analysis
+## Region Analysis
 
-```text
-Which region performs best?
-Show region-wise sales performance.
-```
+* Which region performs best?
+* Show region-wise sales performance.
 
-### Marketing Channel Analysis
+## Marketing Channel Analysis
 
-```text
-Which marketing channel gives the best ROI?
-```
+* Which marketing channel gives the best ROI?
 
-### Campaign Analysis
+## Campaign Analysis
 
-```text
-Which campaign type performs best?
-```
+* Which campaign type performs best?
 
-### General Overview
+## General Overview
 
-```text
-Give me a business overview.
-```
+* Give me a business overview.
 
 ---
 
-## 📊 Dashboard Highlights
+# 📊 Dashboard Highlights
 
-### KPI Metrics
+## KPI Metrics
 
 * Average Monthly Sales
 * Average Marketing Spend
@@ -178,14 +210,14 @@ Give me a business overview.
 * Highest ROI Value
 * Marketing-Sales Correlation
 
-### Visual Analytics
+## Visual Analytics
 
 * Category Performance Charts
 * ROI Comparison Charts
 * Marketing Spend Analysis
 * Scatter Plot Trend Analysis
 
-### Insight Engine
+## Insight Engine
 
 * Data-Grounded Insights
 * AI-Powered Explanations
@@ -194,43 +226,48 @@ Give me a business overview.
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### 1. Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/AI-Powered-Business-Insights-Copilot.git
-
 cd AI-Powered-Business-Insights-Copilot
 ```
 
-### 2. Create Virtual Environment
+## 2. Install Frontend Dependencies
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## 3. Create Python Environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate:
-
-Windows:
+### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-Linux / Mac:
+### Linux / Mac
 
 ```bash
 source venv/bin/activate
 ```
 
-### 3. Install Dependencies
+## 4. Install Backend Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure Groq API
+## 5. Configure Groq API
 
 Create a `.env` file:
 
@@ -238,76 +275,57 @@ Create a `.env` file:
 GROQ_API_KEY=your_api_key_here
 ```
 
-### 5. Add Dataset
-
-Place your dataset file:
-
-```text
-improved_business_dataset.csv
-```
-
-Required Columns:
-
-```text
-Category
-monthly_sales
-marketing_spend
-ROI
-Region
-Marketing_Channel
-Campaign_Type
-```
-
-### 6. Run Application
+## 6. Run Backend
 
 ```bash
-streamlit run app.py
+uvicorn app:app --reload
+```
+
+## 7. Run Frontend
+
+```bash
+npm run dev
 ```
 
 ---
 
-## 🔍 Example Workflow
+# 🔍 Example Workflow
 
-1. User asks:
+User asks:
 
-```text
-Which marketing channel gives the highest ROI?
-```
+> Which marketing channel gives the highest ROI?
 
-2. Intent Detection identifies:
+Intent Detection identifies:
 
-```text
-CHANNEL_ANALYSIS
-```
+> CHANNEL_ANALYSIS
 
-3. Analysis Engine computes:
+Analysis Engine computes:
 
-```text
-Average ROI by Marketing Channel
-```
+* Average ROI by Marketing Channel
+* Validation checks data quality
+* Confidence score calculation
 
-4. Validation checks data quality.
+Groq generates:
 
-5. Confidence score is calculated.
+* Business explanation
+* Supporting insights
 
-6. Groq generates a concise explanation.
+Dashboard displays:
 
-7. Dashboard displays:
-
-   * Data Table
-   * Charts
-   * Insights
-   * AI Explanation
+* Data Table
+* Interactive Charts
+* Business Insights
+* AI Explanation
 
 ---
 
-## 🛡️ Reliability Features
+# 🛡️ Reliability Features
 
-### Correlation Guardrails
+## Correlation Guardrails
 
 Blocks misleading conclusions when correlations are too weak.
 
-### Confidence Scoring
+## Confidence Scoring
 
 Every insight is assigned:
 
@@ -315,13 +333,13 @@ Every insight is assigned:
 * Medium Confidence
 * Low Confidence
 
-### Explainable AI
+## Explainable AI
 
 The LLM receives only structured summaries and computed statistics, ensuring explanations remain grounded in actual data.
 
 ---
 
-## 🎯 Future Enhancements
+# 🎯 Future Enhancements
 
 * Time-Series Forecasting
 * Dataset Upload Support
@@ -333,18 +351,16 @@ The LLM receives only structured summaries and computed statistics, ensuring exp
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Drup Patil**
 
 B.Tech Artificial Intelligence & Machine Learning
 
-
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a **Star ⭐** on GitHub and sharing it with others.
-
 ---
 
-### Made with ❤️ using Python, Streamlit, Plotly, and Groq AI
+# ⭐ Support
+
+If you found this project useful, consider giving it a Star ⭐ on GitHub and sharing it with others.
+
+Made with ❤️ using React.js, Python, FastAPI, Plotly, and Groq AI.
