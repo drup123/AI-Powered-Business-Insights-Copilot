@@ -1,0 +1,26 @@
+# ── Web framework ────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# ── Config / environment ─────────────────────────────────────
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# ── Data layer ────────────────────────────────────────────────
+pandas==2.2.3
+numpy==2.1.3
+
+# ── LLM ──────────────────────────────────────────────────────
+groq==0.12.0
+
+# ── Visualisations (kept for internal helpers; not served directly) ──
+plotly==5.24.1
+
+# ── Stats (for OLS trendline in visualizations.py) ───────────
+statsmodels==0.14.4
+
+# ── Dev / testing ─────────────────────────────────────────────
+httpx==0.28.0          # for TestClient
+pytest==8.3.4
+pytest-asyncio==0.24.0
